@@ -52,7 +52,7 @@ func newName() (name string) {
 	default:
 		name = newVerbName()
 	}
-	fmt.Println("Generated name is: %s", name)
+	fmt.Println("Generated name is: ", name)
 	return
 }
 

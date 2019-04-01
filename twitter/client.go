@@ -36,6 +36,6 @@ func New() (*twitter.Client, error) {
 		return nil, err
 	}
 
-	log.Printf("User's ACCOUNT:%+v", user.Name)
+	log.Printf("User's ACCOUNT: %+v", user.Name)
 	return client, nil
 }
